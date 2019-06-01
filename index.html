@@ -7,15 +7,41 @@
     <style>
         body {
             font-family: 'Pridi', serif;
-            background-color: rgb(245, 173, 173)
+            background-color: rgb(253, 165, 165);
         }
+
         .topic {
-            background-color: blue;
-            width: 200px;
+            background-color: maroon;
+            width: 300px;
             color: azure;
+            font-size: 2em;
+            font-weight: 500;
         }
-        #MACHA{
+
+        #MACHA {
             color: green;
+        }
+
+        th {
+            align-content: center;
+            text-align: center;
+        }
+
+        .menu {
+            font-size: 50px;
+        }
+
+        .button {
+            background-color: rgba(158, 158, 158, 0.986);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
         }
     </style>
 </head>
@@ -23,24 +49,33 @@
 <body>
     <center>
         <h1 class="topic">CHERRY's itim</h1>
+        <img src="./img/wippoWhat.png" alt="My Picture" width="200px">
         <img src="./img/wippo.png" alt="My Picture" width="200px">
+        <img src="./img/wippoFAQs.png" alt="My Picture" width="200px">
         <br>
-        <span>เมนูไอติมต่างๆ</span>
+        <div class="menu">เมนูไอติมต่างๆ</div>
 
         <table style="width:100%">
             <tr>
                 <th>
-                    <h1 class="topic" id="MACHA">MACHA
-                        <h1>
+                    <center>
+                        <div class="topic" align="center">MACHA</div>
+                    </center>
                 </th>
                 <th>
-                    <h1>SAKURA</h1>
+                    <center>
+                        <div class="topic" align="center">SAKURA</div>
+                    </center>
                 </th>
                 <th>
-                    <h1>SABA</h1>
+                    <center>
+                        <div class="topic" align="center">SABA</div>
+                    </center>
                 </th>
                 <th>
-                    <h1>MOJI</h1>
+                    <center>
+                        <div class="topic" align="center">MOJI</div>
+                    </center>
                 </th>
             </tr>
             <tr>
@@ -59,20 +94,25 @@
 
             </tr>
             <tr>
-                <td align="center">ราคา คะแนนความอร่อย</td>
-
-                <td>ราคา</td>
-                <td>ราคา</td>
-                <td>ราคา</td>
+                <td align="center">ราคา</td>
+                <td align="center">ราคา</td>
+                <td align="center">ราคา</td>
+                <td align="center">ราคา</td>
             </tr>
             <tr>
-                <td align="center">50 10/10</td>
-                <td>50</td>
-                <td>30</td>
-                <td>30</td>
+                <td align="center">50</td>
+                <td align="center">50</td>
+                <td align="center">50</td>
+                <td align="center">50</td>
             </tr>
-
+            <tr>
+                <td align="center"><button class="button">Button</button></td>
+                <td align="center"><button class="button">Button</button></td>
+                <td align="center"><button class="button">Button</button></td>
+                <td align="center"><button class="button">Button</button></td>
+            </tr>
         </table>
+    </center>
 </body>
 
 </html>
